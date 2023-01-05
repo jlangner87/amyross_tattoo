@@ -1,5 +1,73 @@
+@font-face {
+  font-family: signatureUnited;
+  src: url(./assets/Signature\ United.woff);
+}
+
+@font-face {
+  font-family: rollerCoaster;
+  src: url(./assets/Roller\ Coaster.ttf);
+}
+
+@font-face {
+  font-family: zenaida;
+  src: url(./assets/Zenaida-Bold.woff);
+}
+
 * {
-  background-color: black;
-  color: white;
+  background-color: #171717;
+  color: #F1EFE7;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  border-top: 1px solid #F1EFE7;
+  width: 50%;
+  margin: -30px auto 10px auto;
+}
+
+.hero_image {
+  width: 400px;
+}
+
+.name {
+  font-size: 195px;
+  font-family: signatureUnited;
+  margin: -60px auto -105px auto;
+  color: #a62b3a;
+}
+
+.job {
+  margin-left: 200px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: rollerCoaster;
+  /* font-family: zenaida; */
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.link_icon {
+  width: 220px;
+  margin: 20px 0 0 0;
+  border-radius: 50%;
+}
+
+.footer {
+  height:50px;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+  position: absolute;
+  margin-bottom: -20px;
 }

@@ -1,9 +1,13 @@
 import './App.css'
+import logo1 from './assets/logo1.png'
+import Header from './components/header'
+import Footer from './components/footer'
 
 function App() {
   return (
     <div className="App">
-      <h1>I'm Amy & this is my page</h1>
+      <Header />
+      <Footer />
     </div>
   )
 }
