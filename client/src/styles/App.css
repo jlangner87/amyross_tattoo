@@ -1,16 +1,16 @@
 @font-face {
   font-family: signatureUnited;
-  src: url(./assets/Signature\ United.woff);
+  src: url(../assets/Signature\ United.woff);
 }
 
 @font-face {
   font-family: rollerCoaster;
-  src: url(./assets/Roller\ Coaster.ttf);
+  src: url(../assets/Roller\ Coaster.ttf);
 }
 
 @font-face {
   font-family: zenaida;
-  src: url(./assets/Zenaida-Bold.woff);
+  src: url(../assets/Zenaida-Bold.woff);
 }
 
 * {
@@ -23,7 +23,7 @@ a {
   text-decoration: none;
 }
 
-.page {
+.line {
   border-top: 1px solid #F1EFE7;
   width: 50%;
   margin: -30px auto 10px auto;
@@ -50,12 +50,14 @@ a {
 }
 
 .Nav {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  width: 50%;
+  width: 50%; */
 }
+
+
 
 .link_icon {
   width: 220px;
@@ -68,6 +70,6 @@ a {
   width: 100%;
   bottom: 0;
   font-size: 14px;
-  position: absolute;
-  margin-bottom: -20px;
+  position: relative;
+  margin-top: 20px;
 }

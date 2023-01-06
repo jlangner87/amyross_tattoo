@@ -7,7 +7,7 @@ function Header() {
       <img src={logo1} className="hero_image" />
       <h1 className="name">Amy Ross</h1>
       <h1 className="job"> tattoo artist</h1>
-      <div className="page"></div>
+      <div className="line"></div>
       <Nav/>
     </div>
   )

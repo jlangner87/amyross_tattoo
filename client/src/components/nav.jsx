@@ -6,10 +6,13 @@ import contact from '../assets/contact.png'
 function Nav() {
   return (
     <div className="Nav">
-      <img src={about} className="link_icon"/>
-      <img src={gallery} className="link_icon"/>
-      <img src={contact} className="link_icon"/>
-    </div>
+
+    <NavLink to={'/contact'}><img src={contact} className="link_icon"/></NavLink>
+    <NavLink to={'/gallery'}><img src={gallery} className="link_icon"/></NavLink>
+    <NavLink to={'/about'}><img src={about} className="link_icon"/></NavLink>
+
+
+</div>
   )
 }
 
