@@ -14,9 +14,12 @@
 }
 
 * {
-  background-color: #171717;
   color: #F1EFE7;
   text-align: center;
+}
+
+body {
+  background-color: #171717;
 }
 
 a {
@@ -56,4 +59,28 @@ a {
   font-size: 14px;
   position: relative;
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 580px){
+
+.hero_image {
+  width: 85%;
+}
+
+.name {
+  font-size: 110px;
+  margin: -20px auto -48px auto;
+}
+
+.job {
+  margin-left: 112px;
+  font-size: 20px;
+}
+
+.line {
+  border-top: 1px solid #F1EFE7;
+  width: 50%;
+  margin: 4px auto 0 auto;
+}
+
 }
