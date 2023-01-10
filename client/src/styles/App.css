@@ -16,6 +16,7 @@
 * {
   color: #F1EFE7;
   text-align: center;
+  overflow-x: hidden;
 }
 
 body {
@@ -31,27 +32,42 @@ a {
 }
 
 .Header {
-  background-color: #171717;
-  height: 100%;
+  background-color: black;
+  overflow-y: hidden;
+  margin-bottom: 25vh;
+  min-height: 100vh;
+}
+
+.enter_link {
+  margin: 100px auto 100px;
+  font-family: rollerCoaster;
+  font-size: 36px;
+  letter-spacing: 2px;
+  border: 1px solid #F1EFE7;
+  padding: 20px 15px 10px 20px;
+}
+
+.scroll_link {
+width: 100px;
+margin: 20px;
 }
 
 .line {
   border-top: 1px solid #F1EFE7;
   width: 50%;
-  margin: 0px auto 50px auto;
-  padding-bottom: 90px;
+  margin: -80px auto 160px auto;
 }
 
 .hero_image {
   width: 600px;
-  padding-top: 200px;
-  margin-bottom: -20px;
+  padding-top: 100px;
+  margin-bottom: -30px;
 }
 
 .name {
   font-size: 295px;
   font-family: signatureUnited;
-  margin: -100px auto -132px auto;
+  margin: -100px auto -195px auto;
   color: #a62b3a;
 }
 
@@ -61,10 +77,11 @@ a {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: rollerCoaster;
+  line-height: 200%;
 }
 
 .headshot {
-  width: 20%;
+  width: 25%;
   border-radius: 50%;
   margin: 20px auto 40px auto;
   border-bottom: 1px solid #a62b3a;
@@ -78,23 +95,25 @@ a {
 
 .content_block {
   width: 99%;
-  background-color: rgb(0, 0, 0, .70);
-  margin: 100px auto 60px auto;
+  background-color: rgb(0, 0, 0, .55);
+  margin: 0 auto 25vh auto;
   padding: 5px 10px;
-  position: relative
+  position: relative;
+  overflow-y: hidden;
 }
 
 .block_header {
-  margin: 20px auto 30px auto;
+  margin: 20px auto 10px auto;
   font-family: rollerCoaster;
   font-size: 62px;
+  line-height: 200%;
 }
 
 .block_text {
   width: 75%;
   font-size: 21px;
   line-height: 1.5;
-  margin: 0px auto 55px auto;
+  margin: 20px auto 55px auto;
   font-family: nanumGothic;
   text-align: left;
 }
@@ -102,6 +121,7 @@ a {
 .gallery_photo {
   width: 400px;
 }
+
 .footer {
   height:50px;
   width: 100%;
@@ -113,16 +133,22 @@ a {
 
 @media only screen and (max-width: 580px){
 
-  body {
-    background-image: url('../assets/mobilebkg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #171717;
-    background-size: contain;
-  }
+body {
+  background-image: url('../assets/mobilebkg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #171717;
+  background-size: contain;
+}
+
+.Header {
+  width: 100%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 
 .hero_image {
-  width: 85%;
+  width: 95%;
 }
 
 .name {
@@ -137,12 +163,17 @@ a {
 
 .line {
   border-top: 1px solid #F1EFE7;
-  width: 50%;
+  width: 70%;
   margin: 4px auto 0 auto;
+  padding-bottom: 200px;
 }
 
 .headshot {
   width: 80%;
 }
 
+.block_text {
+  font-size: 16px;
+  margin: 0px auto 32px auto;
+}
 }

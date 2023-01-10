@@ -1,5 +1,5 @@
 import logo1 from '../assets/logo1.png'
-import Nav from './nav'
+import { HashLink } from 'react-router-hash-link'
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
       <h1 className="name">Amy Ross</h1>
       <h1 className="job"> tattoo artist</h1>
       <div className="line"></div>
-      {/* <Nav/> */}
+      <HashLink className='enter_link' to='/#top' scroll={(el) =>el.scrollIntoView({behavior: 'smooth'})}>ENTER</HashLink>
     </div>
   )
 }
