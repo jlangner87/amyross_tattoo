@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: zenaida;
-  src: url(../assets/Zenaida-Bold.woff);
+  font-family: nanumGothic;
+  src: url(../assets/NanumGothic-Regular.ttf);
 }
 
 * {
@@ -19,39 +19,89 @@
 }
 
 body {
+  background-image: url('../assets/bkgimg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: #171717;
+  background-position: center;
 }
 
 a {
   text-decoration: none;
 }
 
+.Header {
+  background-color: #171717;
+  height: 100%;
+}
+
 .line {
   border-top: 1px solid #F1EFE7;
   width: 50%;
-  margin: -30px auto 10px auto;
+  margin: 0px auto 50px auto;
+  padding-bottom: 90px;
 }
 
 .hero_image {
-  width: 400px;
+  width: 600px;
+  padding-top: 200px;
+  margin-bottom: -20px;
 }
 
 .name {
-  font-size: 195px;
+  font-size: 295px;
   font-family: signatureUnited;
-  margin: -60px auto -105px auto;
+  margin: -100px auto -132px auto;
   color: #a62b3a;
 }
 
 .job {
-  margin-left: 200px;
-  font-size: 40px;
+  margin-left: 308px;
+  font-size: 63px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: rollerCoaster;
-  /* font-family: zenaida; */
 }
 
+.headshot {
+  width: 20%;
+  border-radius: 50%;
+  margin: 20px auto 40px auto;
+  border-bottom: 1px solid #a62b3a;
+  border-left: 3px solid #a62b3a;
+  border-top: 1px solid #a62b3a;
+}
+
+.logo {
+  width: 20%;
+}
+
+.content_block {
+  width: 99%;
+  background-color: rgb(0, 0, 0, .70);
+  margin: 100px auto 60px auto;
+  padding: 5px 10px;
+  position: relative
+}
+
+.block_header {
+  margin: 20px auto 30px auto;
+  font-family: rollerCoaster;
+  font-size: 62px;
+}
+
+.block_text {
+  width: 75%;
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 0px auto 55px auto;
+  font-family: nanumGothic;
+  text-align: left;
+}
+
+.gallery_photo {
+  width: 400px;
+}
 .footer {
   height:50px;
   width: 100%;
@@ -62,6 +112,14 @@ a {
 }
 
 @media only screen and (max-width: 580px){
+
+  body {
+    background-image: url('../assets/mobilebkg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #171717;
+    background-size: contain;
+  }
 
 .hero_image {
   width: 85%;
@@ -81,6 +139,10 @@ a {
   border-top: 1px solid #F1EFE7;
   width: 50%;
   margin: 4px auto 0 auto;
+}
+
+.headshot {
+  width: 80%;
 }
 
 }

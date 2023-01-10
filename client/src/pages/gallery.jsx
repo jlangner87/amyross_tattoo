@@ -1,7 +1,11 @@
+import placeholder from '../assets/placeHolder.png'
+
 function Gallery() {
   return (
-    <div className="page">
-      <h1 className="name">This is the Gallery page</h1>
+    <div className="content_block">
+      <h1 className="block_header">Art Gallery</h1>
+
+      <img src={placeholder} className="gallery_photo"/>
     </div>
   )
 }

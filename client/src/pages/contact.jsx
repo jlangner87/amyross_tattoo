@@ -1,7 +1,7 @@
 function Contact() {
   return (
-    <div className="page">
-      <h1 className="name">This is the Contact page</h1>
+    <div className="content_block">
+      <h1 className="block_header">Contact & Booking</h1>
     </div>
   )
 }
