@@ -1,5 +1,5 @@
 import headshot from '../assets/amy2.png'
-import down from '../assets/bottom.png'
+import down from '../assets/bottom2.png'
 import { HashLink } from 'react-router-hash-link'
 
 function About() {
