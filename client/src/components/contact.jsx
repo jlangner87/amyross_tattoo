@@ -17,7 +17,7 @@ function ContactForm() {
     event.preventDefault()
     setFormState({ ...formState, [event.target.id]: event.target.value })
     if (event.target.value === '') {
-      setFormState({ ...formState, [event.target.id]: 0 })
+      setFormState({ ...formState, [event.target.id]: '' })
     }
   }
 
@@ -26,14 +26,14 @@ function ContactForm() {
     emailjs
       .send(
         'service_dabri2d',
-        'template_0fa62kt',
+        'template_jwbijsc',
         formState,
         '-g6CgSoAgcOI1wfb6'
       )
       .then(
         function (response) {
           alert(
-            `${formState.name}, Thank you for reaching out! I will respond shortly!`
+            `${formState.name}, Thanks for sending a message! I will get back to you ASAP!`
           )
         },
         function (error) {

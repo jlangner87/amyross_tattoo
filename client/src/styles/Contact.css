@@ -11,6 +11,7 @@
   -webkit-border-radius:12px;
   -moz-border-radius:12px;
   margin: 20px auto;
+  color: #171717;
 }
 
 #contact-form input,   
@@ -20,6 +21,7 @@
   font-size: 15px;  
   margin-bottom: 2px;
   font-family: Arial, san-serif;
+  color: #171717;
 } 
 #contact-form input,   
 #contact-form select,   
