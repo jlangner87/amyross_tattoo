@@ -25,6 +25,7 @@ body {
   background-attachment: fixed;
   background-color: #171717;
   background-position: center;
+
 }
 
 a {
@@ -96,7 +97,7 @@ margin: 40px 20px 20px 20px;
 .content_block {
   width: 99%;
   background-color: rgb(0, 0, 0, .55);
-  margin: 0 auto 25vh auto;
+  margin: 0 auto 50vh auto;
   padding: 5px 10px;
   position: relative;
   overflow-y: hidden;
@@ -145,25 +146,6 @@ margin: 40px 20px 20px 20px;
   text-align: center;
 }
 
-.photo_gallery {
-  width: 75%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto 0 auto;
-}
-
-.gallery_photo {
-  width: 350px;
-  margin: 30px;
-  border-radius: 4px;
-  -webkit-box-shadow: 10px 10px 29px -5px rgba(241,239,231,1);
-  -moz-box-shadow: 10px 10px 29px -5px rgba(241,239,231,1);
-  box-shadow: 10px 10px 29px -5px rgba(241,239,231,1);
-  
-}
-
 .socials {
   display: flex;
   flex-direction: row;
@@ -171,6 +153,52 @@ margin: 40px 20px 20px 20px;
   margin: 0 auto 50px auto;
   justify-content: center;
   border-bottom: 1px solid #F1EFE7;
+}
+
+.slider {
+  margin: 15px auto;
+  width: 85%;
+}
+
+.each-slide-effect > img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 33%;
+  margin: 30px auto;
+}
+
+.each-slide-effect > img:hover{
+  filter: brightness(120%)
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  filter: brightness(180%);
+}
+
+.nav_butt {
+  width: 200px;
+}
+
+.indicator {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 1px #171717;
+  margin: 0;
+  font-family: mamumGothic;
+  font-size: 18px;
+}
+
+.indicator.active {
+  color: #171717;
+  background: #F1EFE7;
 }
 
 .contact {
@@ -210,7 +238,6 @@ body {
   background-size: contain;
 }
 
-
 .enter_link {
   margin: 50px auto 50px;
   font-size:28px;
@@ -233,7 +260,7 @@ margin: 20px 10px 10px 10px;
 
 .name {
   font-size: 110px;
-  margin: -20px auto -48px auto;
+  margin: -20px auto -68px auto;
 }
 
 .job {
@@ -244,7 +271,7 @@ margin: 20px 10px 10px 10px;
 .line {
   border-top: 1px solid #F1EFE7;
   width: 70%;
-  margin: 4px auto 0 auto;
+  margin: -23px auto 0 auto;
   padding-bottom: 200px;
 }
 
@@ -282,17 +309,6 @@ margin: 20px 10px 10px 10px;
   font-size: 24px;
 }
 
-.photo_gallery {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.gallery_photo {
-  width: 75%;
-  margin: 10px auto;
-}
-
 .socials {
   width: 100%;
   margin: 0 auto 25px auto;
@@ -311,5 +327,24 @@ margin: 20px 10px 10px 10px;
 .lucky_link {
   width: 80%;
   margin: 15px auto 15px auto;
+}
+
+.slider {
+  margin: 8px auto;
+  width: 100%;
+  height: 75vh;
+}
+
+.each-slide-effect > img{
+  width: 75%;
+  margin: 15px auto;
+}
+
+.nav_butt {
+  width: 80px;
+}
+
+.indicator {
+  display: none;
 }
 }

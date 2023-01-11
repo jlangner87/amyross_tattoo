@@ -6,7 +6,7 @@
   font-size: 24px;
   text-align: left;
   padding: 10px 20px 30px 20px;
-  max-width:50%;
+  width:50%;
   border-radius:12px;
   -webkit-border-radius:12px;
   -moz-border-radius:12px;
@@ -68,12 +68,14 @@ input:required, textarea:required {
   color: #F1EFE7;      
 }
 
+
 @media only screen and (max-width: 580px) {
-  #contact-form{
+
+#contact-form{
       font-size: 24px;
       padding: 5px 5px 20px 10px;
-      width:95%;
-      margin: 10px auto 10px auto
+      margin: 10px auto 10px auto;
+      width: 85%;
   }
 
   #contact-form input,  

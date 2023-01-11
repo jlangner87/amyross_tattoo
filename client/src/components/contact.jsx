@@ -44,8 +44,6 @@ function ContactForm() {
   }
 
   return (
-    <div className="contact_card">
-      <div className='contact_form'>
       <div id="contact-form">
        <form onSubmit={handleMessage} method="post" action="/">
       <div>
@@ -81,9 +79,6 @@ function ContactForm() {
       </div>
       </form>
   </div> 
-      </div>
-
-    </div>
   )
 }
 
