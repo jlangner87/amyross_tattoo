@@ -1,14 +1,17 @@
+import Header from "../components/header"
 import About from "./about"
 import Contact from "./contact"
 import Gallery from "./gallery"
-import { HashLink } from "react-router-hash-link"
+import Footer from "../components/footer"
 
 function Home() {
   return (
-    <div className="page">
+    <div className="home">
+      <Header />
       <About/>
       <Gallery/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

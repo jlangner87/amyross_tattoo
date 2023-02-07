@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser'
 import { useState } from 'react'
 import '../styles/Contact.css'
+import Footer from './footer'
 
 function ContactForm() {
 

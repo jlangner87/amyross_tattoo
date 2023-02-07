@@ -24,7 +24,7 @@ function Contact() {
       </div>
       <h3 className="block_subheader">Send Amy some Love</h3>
       <ContactForm/>
-      <HashLink className='scroll_link' to='/#top' scroll={(el) =>el.scrollIntoView({behavior: 'smooth'})}><img src={top} className='scroll_link'/></HashLink>
+      <HashLink className='scroll_link' to='/#top'><img src={top} className='scroll_link'/></HashLink>
       
     </div>
   )

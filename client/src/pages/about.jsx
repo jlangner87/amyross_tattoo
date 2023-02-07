@@ -10,7 +10,7 @@ function About() {
       <p className='block_text'>She has experienced an incredible journey with art over the course of her life, and she recently took the plunge into tattooing in 2021. With a lifetime of knowledge and experience of artistic expression, Amy is taking her talents to the next level in this budding industry. Those lucky enough to get a tattoo from her can expect an experienced artist with a commitment to creativity and originality.</p>
       <p className='block_text'>Currently,&#160; Amy showcases her incredible talent as a tattoo artist at Lucky Gal Tattoo and Piercing in Ankeny, Iowa. This vibrant shop has been around since the early 2000s and offers everything from traditional to modern tattoos and piercings. Her creativity shines through with each design, and she takes great pride in providing superior customer service and delivering quality artwork that exceeds expectations. <em>If you're looking for a stunning tattoo designed by an expert artist, stop by Lucky Gal Tattoo and Piercing and consult with Amy about your next ink!</em></p>
       <img src={headshot} className='headshot'/><br/>
-      <HashLink to='/#gallery' scroll={(el) =>el.scrollIntoView({behavior: 'smooth'})}><img src={down} className='scroll_link'/></HashLink>
+      <HashLink to='/#gallery'><img src={down} className='scroll_link'/></HashLink>
 
     </div>
   )
