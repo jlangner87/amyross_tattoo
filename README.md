@@ -40,8 +40,3 @@
 ---
 ### Mobile Display:
 <img width="346" alt="mobile-responsive" src="https://user-images.githubusercontent.com/107937483/226445443-aa106756-10e9-4e14-9b42-1542d437e0c6.png">
-
----
-![footer](assets/JL_OctopusLogo_Final_JoshuaLangner_Logo_Purple_Horizontal_Extended.png)
-
-
