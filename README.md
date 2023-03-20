@@ -1,9 +1,11 @@
 <img width="1720" alt="Amyross-splash" src="https://user-images.githubusercontent.com/107937483/226444914-bcb6c649-d99e-406d-8490-b6d73b9e84e3.png">
 
-### Joshua M. Langner
-#### Date: January 2023
-
 ---
+
+# Amy Ross Tattoo— *A tattoo atrist portfolio*
+
+### Joshua Langner
+## January 2023
 
 | [LinkedIn](https://www.linkedin.com/in/josh-langner-48) | [GitHub](https://github.com/jlangner87) | [Portfolio](https://joshua-langner.com) |
 
