@@ -12,7 +12,7 @@ function Contact() {
       <h3 className="block_subheader">Follow Amy on Social Media</h3>
       <div className="socials">
         <a href="https://www.facebook.com/amyleighross"><img src={facebook} className='social_link'/></a>
-        <a href="https://www.instagram.com/inkedby.amy/"><img src={insta} className='social_link'/></a>
+        <a href="https://www.instagram.com/amyrosstattoos/"><img src={insta} className='social_link'/></a>
       </div>
       <h3 className="block_subheader">Book Amy at Lucky Gal</h3>
       <div className="contact">
